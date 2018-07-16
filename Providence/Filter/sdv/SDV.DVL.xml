@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Data> 
+<AssessmentScore ScoreName="Providence.x86.General.XMLTimeStamp" ScoreValue="0" ScoreUnit="07/14/2018 14:58:57" />
+<AssessmentScore ScoreName="Providence.x86.General.DriverBinary" ScoreValue="0" ScoreUnit="Providence.sys" />
+<AssessmentScore ScoreName="Providence.x86.General.BinaryTimeStamp" ScoreValue="0" ScoreUnit="01/01/0001 00:00:00" />
+<AssessmentScore ScoreName="Providence.x86.General.DriverType" ScoreValue="0" ScoreUnit="KMDF" />
+<AssessmentScore ScoreName="Providence.x86.General.DriverSize" ScoreValue="0" ScoreUnit="LOC" />
+<AssessmentScore ScoreName="Providence.x86.General.DriverVersion" ScoreValue="0" ScoreUnit="0" />
+<AssessmentScore ScoreName="Providence.x86.General.Libs" ScoreValue="0" ScoreUnit="Number of external libraries used" />
+<AssessmentScore ScoreName="Providence.x86.SDV.Version" ScoreValue="0" ScoreUnit="4.0.1701.1" />
+<AssessmentScore ScoreName="Providence.x86.SDV.NA.Reason" ScoreValue="15" ScoreUnit="Driver type is 'wdf_fs_wdf'. This driver type is not supported by SDV.  Please consult the documentation for supported driver types." />
+</Data>
