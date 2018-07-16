@@ -8,8 +8,6 @@
 #define DBG_PRINT(_fmt, ...) { NOTHING; }
 #endif // DEBUG
 
-#define MAX_PATH 260
-
 DRIVER_INITIALIZE DriverEntry;
 
 NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING RegistryPath);
@@ -343,7 +341,7 @@ FLT_PREOP_CALLBACK_STATUS PreCleanup(_Inout_ PFLT_CALLBACK_DATA Data, _In_ PCFLT
 			ScanFileInUserMode(Data, &Infected);
 
 			if (Infected) {
-				DBG_PRINT("File is infected!\n", &FltObjects->FileObject->FileName);
+				DBG_PRINT("File is infected!\n");
 			}
 		}
 
